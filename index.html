@@ -13,7 +13,7 @@
     --teal-tint:#E7F0F0; --paper:#FAF8F4; --white:#FFFFFF;
     --accent:#C2560F; --accent-dk:#A8490C; --amber:#E8912E;
     --text:#15303A; --muted:#4C5F64; --line:#DCE4E4;
-    --fs-body:16px; --fs-head:22px;
+    --fs-body:16px; --fs-head:20px;
   }
   *{box-sizing:border-box}
   html{overflow-x:clip}
@@ -33,7 +33,7 @@
   .btn-outline:hover{background:var(--petrol);color:#fff}
   .btn-light{background:#fff;color:var(--ink);border-color:#fff}
   .btn-light:hover{background:var(--teal-tint);color:var(--ink);border-color:var(--teal-tint)}
-  .eyebrow{font-family:'Archivo',sans-serif;font-weight:700;font-size:var(--fs-body);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+  .eyebrow{font-family:'Archivo',sans-serif;font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
   .lead{color:var(--muted);font-size:var(--fs-body);line-height:1.6}
 
   /* header */
@@ -56,8 +56,8 @@
   .hero{background:var(--paper)}
   .hero .wrap{display:flex;flex-wrap:wrap;gap:48px;align-items:center;padding-top:72px;padding-bottom:72px}
   .hero-copy{flex:1 1 440px;min-width:0}
-  .hero h1{font-size:42px;font-weight:800;margin-top:18px;line-height:1.1}
-  .hero h1 em{font-style:normal;color:var(--petrol)}
+  .hero h1{font-size:34px;font-weight:800;margin-top:18px;line-height:1.12}
+  .hero h1 em{font-style:normal;color:inherit}
   .hero .lead{margin-top:22px;max-width:540px}
   .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
   .chips{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:30px}
@@ -85,7 +85,7 @@
   /* section heading */
   .sec{padding-top:88px;padding-bottom:88px}
   .sec-head{max-width:640px;margin-left:auto;margin-right:auto;text-align:center}
-  .sec-head h2{margin-top:14px}
+  .sec-head h2{font-size:26px;margin-top:14px}
   .sec-head .lead{margin-top:16px}
 
   /* services grid */
@@ -101,11 +101,11 @@
   /* why band */
   .why{background:var(--ink);color:#DCEAEA}
   .why .sec-head h2{color:#fff}
-  .why .sec-head .eyebrow{color:var(--amber)}
+  .why .sec-head .eyebrow{color:#9FBCBC}
   .why .lead{color:#A9C4C4}
   .why-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;margin-top:48px}
   .stat{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:30px 26px}
-  .stat .k{font-family:'Archivo';font-weight:800;font-size:var(--fs-head);color:#fff;line-height:1}
+  .stat .k{font-family:'Archivo';font-weight:800;font-size:26px;color:#fff;line-height:1}
   .stat .k .u{color:#fff}
   .stat h4{color:#fff;margin-top:14px;font-weight:500;font-family:'Hanken Grotesk',sans-serif}
   .stat p{color:#9FBCBC;margin-top:8px}
@@ -292,15 +292,6 @@
             <path d="M98 90 L112 76" stroke="#C2560F" stroke-width="5" stroke-linecap="round"></path>
             <circle cx="98" cy="90" r="4" fill="#0A464E"></circle>
           </svg>
-        </div>
-        <div class="float-card">
-          <span class="fc-ico" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
-          </span>
-          <span>
-            <span class="fc-k">0–24</span>
-            <span class="fc-s">hitne intervencije</span>
-          </span>
         </div>
       </div>
     </div>
@@ -577,7 +568,6 @@
         <div class="foot-col">
           <h4>Kontakt</h4>
           <a href="tel:+38765607747">+387 65 607 747</a>
-          <a href="viber://chat?number=%2B38765607747">Viber: +387 65 607 747</a>
           <div>ul. Tuzlanska, Banja Luka</div>
         </div>
       </div>
